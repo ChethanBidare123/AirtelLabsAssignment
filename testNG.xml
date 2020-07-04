@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <!-- <listener class-name="com.pharmeasy.MercuryUI.Listeners.Listener"></listener>
+         <listener class-name="com.pharmeasy.MercuryUI.Listeners.RetryListeners"></listener>   -->
+    </listeners>
+
+    <test name="Assignment">
+        <classes>
+            <class name="TC001_VerifyProductAddedSuccessfully"/>
+            <class name="TC002_VerifyFinalPriceAfterDiscount"></class>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
